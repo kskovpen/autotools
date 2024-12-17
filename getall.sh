@@ -1,5 +1,5 @@
 #!/bin/bash -e
-curl -L http://ftp.gnu.org/gnu/m4/m4-1.4.18.tar.gz | tar xzvvf -
+curl -L https://ftp.gnu.org/gnu/m4/m4-1.4.19.tar.gz | tar xzvvf -
 curl -L http://ftpmirror.gnu.org/libtool/libtool-2.4.6.tar.gz | tar xzvvf -
 curl -L http://ftp.gnu.org/gnu/autoconf/autoconf-2.69.tar.gz | tar xzvvf -
 curl -L http://ftp.gnu.org/pub/gnu/gettext/gettext-0.20.1.tar.gz | tar xzvvf -
