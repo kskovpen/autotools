@@ -1,0 +1,32 @@
+@node ax_count_cpus
+@unnumberedsec ax_count_cpus
+
+@majorheading Synopsis
+
+@smallexample
+AX_COUNT_CPUS
+@end smallexample
+
+@majorheading Description
+
+Attempt to count the number of processors present on the machine. If the
+detection fails, then a value of 1 is assumed.
+
+The value is placed in the CPU_COUNT variable.
+
+@majorheading Source Code
+
+Download the
+@uref{http://git.savannah.gnu.org/gitweb/?p=autoconf-archive.git;a=blob_plain;f=m4/ax_count_cpus.m4,latest
+version of @file{ax_count_cpus.m4}} or browse
+@uref{http://git.savannah.gnu.org/gitweb/?p=autoconf-archive.git;a=history;f=m4/ax_count_cpus.m4,the
+macro's revision history}.
+
+@majorheading License
+
+@w{Copyright @copyright{} 2014 Karlson2k (Evgeny Grin) @email{k2k@@narod.ru}} @* @w{Copyright @copyright{} 2012 Brian Aker @email{brian@@tangent.org}} @* @w{Copyright @copyright{} 2008 Michael Paul Bailey @email{jinxidoru@@byu.net}} @* @w{Copyright @copyright{} 2008 Christophe Tournayre @email{turn3r@@users.sourceforge.net}}
+
+Copying and distribution of this file, with or without modification, are
+permitted in any medium without royalty provided the copyright notice
+and this notice are preserved. This file is offered as-is, without any
+warranty.
