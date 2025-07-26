@@ -1,0 +1,33 @@
+@node ax_cxx_compiler_vendor
+@unnumberedsec ax_cxx_compiler_vendor
+
+@majorheading Synopsis
+
+@smallexample
+AX_CXX_COMPILER_VENDOR(VENDOR-NAME, [NICKNAME])
+@end smallexample
+
+@majorheading Description
+
+Set VENDOR-NAME to the lower-case name of the compiler vendor or
+`unknown' if the compiler's vendor is unknown. `compaq' means the CXX
+compiler as available on Tru64/OSF1/Digital Unix on Alpha machines. If
+NICKNAME is provided, set it to the compiler's usual name (eg. `g++',
+`cxx', `aCC', etc.).
+
+@majorheading Source Code
+
+Download the
+@uref{http://git.savannah.gnu.org/gitweb/?p=autoconf-archive.git;a=blob_plain;f=m4/ax_cxx_compiler_vendor.m4,latest
+version of @file{ax_cxx_compiler_vendor.m4}} or browse
+@uref{http://git.savannah.gnu.org/gitweb/?p=autoconf-archive.git;a=history;f=m4/ax_cxx_compiler_vendor.m4,the
+macro's revision history}.
+
+@majorheading License
+
+@w{Copyright @copyright{} 2008 Ludovic Courtes @email{ludo@@chbouib.org}}
+
+Copying and distribution of this file, with or without modification, are
+permitted in any medium without royalty provided the copyright notice
+and this notice are preserved. This file is offered as-is, without any
+warranty.
